@@ -1,0 +1,66 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/widget_margin"
+    android:background="#B3b7b7b7">
+
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:paddingTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:paddingStart="80dp"
+        android:background="#B298fe38"
+        android:text="@string/placeholder"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:fontFamily="monospace"
+        android:textStyle="bold"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:paddingEnd="30dp"
+        android:layout_above="@+id/textView2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/placeholder"
+        android:id="@+id/textView2"
+        android:paddingStart="80dp"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:gravity="end"
+        android:fontFamily="monospace"
+        android:background="#B298fe38"
+        android:paddingBottom="10dp"
+        android:paddingEnd="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:paddingTop="10dp"
+        android:paddingEnd="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
+    <!--
+        <Button
+            android:id="@+id/actionButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Refresh"
+            android:layout_alignParentEnd="true"
+            android:layout_toEndOf="@+id/textView" /> -->

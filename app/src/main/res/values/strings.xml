@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Workday Calendar</string>
+    <string name="work_status_work">You have work today!</string>
+    <string name="work_status_no_work">No work today!</string>
+    <string name="next_workday">Next workday: </string>
+    <string name="placeholder">Loading....</string>
+    <string name="delete">Delete file</string>
+    <string name="download">Download file</string>
+</resources>
